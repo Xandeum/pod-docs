@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://xandeum.github.io/pod-docs/0.4.2/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-19</lastmod>
     </url>
     <url>
          <loc>https://xandeum.github.io/pod-docs/0.4.2/cli/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-19</lastmod>
     </url>
     <url>
          <loc>https://xandeum.github.io/pod-docs/0.4.2/rpc-api/</loc>
-         <lastmod>2025-10-24</lastmod>
+         <lastmod>2025-11-19</lastmod>
     </url>
 </urlset>

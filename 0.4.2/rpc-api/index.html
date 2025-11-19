@@ -21,8 +21,11 @@
         <link rel="next" href="../cli/">
       
       
+        
+      
+      
       <link rel="icon" href="../assets/XandeumLogoStandard.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.22">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
     
     
       
@@ -30,10 +33,10 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.84d31ad4.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.618322db.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -60,7 +63,6 @@
 
     
     
-    
   </head>
   
   
@@ -80,7 +82,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#prpc-api-reference" class="md-skip">
+        <a href="#pnode-rpc-prpc-reference" class="md-skip">
           Skip to content
         </a>
       
@@ -320,9 +322,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Home
+  
+
     
   </span>
+  
   
 
       </a>
@@ -351,9 +358,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     pRPC API
+  
+
     
   </span>
+  
   
 
           <span class="md-nav__icon md-icon"></span>
@@ -364,9 +376,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     pRPC API
+  
+
     
   </span>
+  
   
 
       </a>
@@ -389,7 +406,9 @@
         <li class="md-nav__item">
   <a href="#overview" class="md-nav__link">
     <span class="md-ellipsis">
-      Overview
+      
+        Overview
+      
     </span>
   </a>
   
@@ -398,7 +417,9 @@
         <li class="md-nav__item">
   <a href="#network-architecture" class="md-nav__link">
     <span class="md-ellipsis">
-      Network Architecture
+      
+        Network Architecture
+      
     </span>
   </a>
   
@@ -407,7 +428,9 @@
         <li class="md-nav__item">
   <a href="#available-methods" class="md-nav__link">
     <span class="md-ellipsis">
-      Available Methods
+      
+        Available Methods
+      
     </span>
   </a>
   
@@ -417,7 +440,9 @@
           <li class="md-nav__item">
   <a href="#request" class="md-nav__link">
     <span class="md-ellipsis">
-      Request
+      
+        Request
+      
     </span>
   </a>
   
@@ -426,7 +451,9 @@
           <li class="md-nav__item">
   <a href="#response" class="md-nav__link">
     <span class="md-ellipsis">
-      Response
+      
+        Response
+      
     </span>
   </a>
   
@@ -435,7 +462,9 @@
           <li class="md-nav__item">
   <a href="#curl-example" class="md-nav__link">
     <span class="md-ellipsis">
-      cURL Example
+      
+        cURL Example
+      
     </span>
   </a>
   
@@ -444,7 +473,9 @@
           <li class="md-nav__item">
   <a href="#request_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Request
+      
+        Request
+      
     </span>
   </a>
   
@@ -453,7 +484,9 @@
           <li class="md-nav__item">
   <a href="#response_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Response
+      
+        Response
+      
     </span>
   </a>
   
@@ -462,7 +495,9 @@
           <li class="md-nav__item">
   <a href="#response-fields" class="md-nav__link">
     <span class="md-ellipsis">
-      Response Fields
+      
+        Response Fields
+      
     </span>
   </a>
   
@@ -471,7 +506,9 @@
           <li class="md-nav__item">
   <a href="#request_2" class="md-nav__link">
     <span class="md-ellipsis">
-      Request
+      
+        Request
+      
     </span>
   </a>
   
@@ -480,7 +517,9 @@
           <li class="md-nav__item">
   <a href="#response_2" class="md-nav__link">
     <span class="md-ellipsis">
-      Response
+      
+        Response
+      
     </span>
   </a>
   
@@ -489,7 +528,9 @@
           <li class="md-nav__item">
   <a href="#pod-fields" class="md-nav__link">
     <span class="md-ellipsis">
-      Pod Fields
+      
+        Pod Fields
+      
     </span>
   </a>
   
@@ -503,7 +544,9 @@
         <li class="md-nav__item">
   <a href="#error-handling" class="md-nav__link">
     <span class="md-ellipsis">
-      Error Handling
+      
+        Error Handling
+      
     </span>
   </a>
   
@@ -513,7 +556,9 @@
           <li class="md-nav__item">
   <a href="#method-not-found" class="md-nav__link">
     <span class="md-ellipsis">
-      Method Not Found
+      
+        Method Not Found
+      
     </span>
   </a>
   
@@ -522,7 +567,9 @@
           <li class="md-nav__item">
   <a href="#internal-error" class="md-nav__link">
     <span class="md-ellipsis">
-      Internal Error
+      
+        Internal Error
+      
     </span>
   </a>
   
@@ -531,7 +578,9 @@
           <li class="md-nav__item">
   <a href="#standard-error-codes" class="md-nav__link">
     <span class="md-ellipsis">
-      Standard Error Codes
+      
+        Standard Error Codes
+      
     </span>
   </a>
   
@@ -545,7 +594,9 @@
         <li class="md-nav__item">
   <a href="#integration-examples" class="md-nav__link">
     <span class="md-ellipsis">
-      Integration Examples
+      
+        Integration Examples
+      
     </span>
   </a>
   
@@ -555,7 +606,9 @@
           <li class="md-nav__item">
   <a href="#python-example" class="md-nav__link">
     <span class="md-ellipsis">
-      Python Example
+      
+        Python Example
+      
     </span>
   </a>
   
@@ -564,7 +617,9 @@
           <li class="md-nav__item">
   <a href="#javascriptnodejs-example" class="md-nav__link">
     <span class="md-ellipsis">
-      JavaScript/Node.js Example
+      
+        JavaScript/Node.js Example
+      
     </span>
   </a>
   
@@ -573,7 +628,9 @@
           <li class="md-nav__item">
   <a href="#bashcurl-example" class="md-nav__link">
     <span class="md-ellipsis">
-      Bash/curl Example
+      
+        Bash/curl Example
+      
     </span>
   </a>
   
@@ -604,9 +661,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     CLI Usage
+  
+
     
   </span>
+  
   
 
       </a>
@@ -643,7 +705,9 @@
         <li class="md-nav__item">
   <a href="#overview" class="md-nav__link">
     <span class="md-ellipsis">
-      Overview
+      
+        Overview
+      
     </span>
   </a>
   
@@ -652,7 +716,9 @@
         <li class="md-nav__item">
   <a href="#network-architecture" class="md-nav__link">
     <span class="md-ellipsis">
-      Network Architecture
+      
+        Network Architecture
+      
     </span>
   </a>
   
@@ -661,7 +727,9 @@
         <li class="md-nav__item">
   <a href="#available-methods" class="md-nav__link">
     <span class="md-ellipsis">
-      Available Methods
+      
+        Available Methods
+      
     </span>
   </a>
   
@@ -671,7 +739,9 @@
           <li class="md-nav__item">
   <a href="#request" class="md-nav__link">
     <span class="md-ellipsis">
-      Request
+      
+        Request
+      
     </span>
   </a>
   
@@ -680,7 +750,9 @@
           <li class="md-nav__item">
   <a href="#response" class="md-nav__link">
     <span class="md-ellipsis">
-      Response
+      
+        Response
+      
     </span>
   </a>
   
@@ -689,7 +761,9 @@
           <li class="md-nav__item">
   <a href="#curl-example" class="md-nav__link">
     <span class="md-ellipsis">
-      cURL Example
+      
+        cURL Example
+      
     </span>
   </a>
   
@@ -698,7 +772,9 @@
           <li class="md-nav__item">
   <a href="#request_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Request
+      
+        Request
+      
     </span>
   </a>
   
@@ -707,7 +783,9 @@
           <li class="md-nav__item">
   <a href="#response_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Response
+      
+        Response
+      
     </span>
   </a>
   
@@ -716,7 +794,9 @@
           <li class="md-nav__item">
   <a href="#response-fields" class="md-nav__link">
     <span class="md-ellipsis">
-      Response Fields
+      
+        Response Fields
+      
     </span>
   </a>
   
@@ -725,7 +805,9 @@
           <li class="md-nav__item">
   <a href="#request_2" class="md-nav__link">
     <span class="md-ellipsis">
-      Request
+      
+        Request
+      
     </span>
   </a>
   
@@ -734,7 +816,9 @@
           <li class="md-nav__item">
   <a href="#response_2" class="md-nav__link">
     <span class="md-ellipsis">
-      Response
+      
+        Response
+      
     </span>
   </a>
   
@@ -743,7 +827,9 @@
           <li class="md-nav__item">
   <a href="#pod-fields" class="md-nav__link">
     <span class="md-ellipsis">
-      Pod Fields
+      
+        Pod Fields
+      
     </span>
   </a>
   
@@ -757,7 +843,9 @@
         <li class="md-nav__item">
   <a href="#error-handling" class="md-nav__link">
     <span class="md-ellipsis">
-      Error Handling
+      
+        Error Handling
+      
     </span>
   </a>
   
@@ -767,7 +855,9 @@
           <li class="md-nav__item">
   <a href="#method-not-found" class="md-nav__link">
     <span class="md-ellipsis">
-      Method Not Found
+      
+        Method Not Found
+      
     </span>
   </a>
   
@@ -776,7 +866,9 @@
           <li class="md-nav__item">
   <a href="#internal-error" class="md-nav__link">
     <span class="md-ellipsis">
-      Internal Error
+      
+        Internal Error
+      
     </span>
   </a>
   
@@ -785,7 +877,9 @@
           <li class="md-nav__item">
   <a href="#standard-error-codes" class="md-nav__link">
     <span class="md-ellipsis">
-      Standard Error Codes
+      
+        Standard Error Codes
+      
     </span>
   </a>
   
@@ -799,7 +893,9 @@
         <li class="md-nav__item">
   <a href="#integration-examples" class="md-nav__link">
     <span class="md-ellipsis">
-      Integration Examples
+      
+        Integration Examples
+      
     </span>
   </a>
   
@@ -809,7 +905,9 @@
           <li class="md-nav__item">
   <a href="#python-example" class="md-nav__link">
     <span class="md-ellipsis">
-      Python Example
+      
+        Python Example
+      
     </span>
   </a>
   
@@ -818,7 +916,9 @@
           <li class="md-nav__item">
   <a href="#javascriptnodejs-example" class="md-nav__link">
     <span class="md-ellipsis">
-      JavaScript/Node.js Example
+      
+        JavaScript/Node.js Example
+      
     </span>
   </a>
   
@@ -827,7 +927,9 @@
           <li class="md-nav__item">
   <a href="#bashcurl-example" class="md-nav__link">
     <span class="md-ellipsis">
-      Bash/curl Example
+      
+        Bash/curl Example
+      
     </span>
   </a>
   
@@ -848,13 +950,14 @@
           
           
             <div class="md-content" data-md-component="content">
+              
               <article class="md-content__inner md-typeset">
                 
                   
 
 
 
-<h1 id="prpc-api-reference">pRPC API Reference</h1>
+<h1 id="pnode-rpc-prpc-reference">pNode RPC (pRPC) Reference</h1>
 <p>Complete reference for all JSON-RPC 2.0 methods available in Xandeum pNode.</p>
 <h2 id="overview">Overview</h2>
 <p>The Xandeum pNode pRPC API uses JSON-RPC 2.0 protocol over HTTP POST requests. All requests should be sent to the <code>/prpc</code> endpoint.</p>
@@ -1292,10 +1395,11 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "navigation.instant", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "content.code.copy", "content.code.annotate", "content.tabs.link"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"default": "latest", "provider": "mike"}}</script>
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "navigation.instant", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "content.code.copy", "content.code.annotate", "content.tabs.link"], "search": "../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"default": "latest", "provider": "mike"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>
       
     
   </body>
